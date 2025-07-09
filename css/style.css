@@ -1,0 +1,51 @@
+.navbar-brand{
+    position:relative;
+}
+
+#logo{
+    width: 50px;
+}
+
+#moviestar-title{
+    color: #fff;
+    position: absolute;
+    bottom: -2px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#main-navbar{
+    background-color: #121212;
+}
+#serach-form{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 180px;
+}
+
+#serach-form .form-control{
+    border: none;
+    width: 90%;
+    box-shadow: none;
+}
+
+
+#navbar{
+    min-width: 20%;
+}
+
+#navbar-nav{
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.bold{
+    font-weight: bold;
+}
